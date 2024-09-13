@@ -1,0 +1,88 @@
+.mainCard {
+  width: 100%;
+  background-color: white;
+  margin: 10px 0px;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  .myDiv {
+    display: flex;
+    justify-content: flex-start;
+    // flex-direction: column;
+  }
+}
+.Status {
+  padding: 10px 20px;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  color: C;
+}
+.timeParagraph {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 400;
+}
+.userEmail {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: 300ms;
+}
+.userEmail:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.commentsAndLikes {
+  width: 100%;
+  border-top: 1px solid rgba(198, 189, 189, 0.5);
+  padding: 4px 10px;
+}
+.commentPhoto {
+  display: inline;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 5px;
+  border: 2px solid rgba(198, 189, 189, 0.5);
+}
+.mainText {
+  display: inline;
+}
+.editAndDeleteDiv {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  .myIcon {
+    font-size: 18px;
+    margin: 0px 0px 0px 10px;
+    cursor: pointer;
+    transition: 300ms;
+    color: rgba(60, 60, 60, 0.7);
+  }
+  .myIcon:hover {
+    color: rgba(60, 60, 60, 1);
+  }
+}
+.postImage {
+  padding: 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 300px;
+  overflow: hidden;
+  img {
+    cursor: pointer;
+    position: relative;
+    max-width: 100%;
+    max-height: 400px;
+  }
+  img:hover {
+    transform: scaleX(50deg);
+  }
+}

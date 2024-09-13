@@ -1,0 +1,18 @@
+.myFirstButton {
+  width: 100%;
+  background-color: rgb(100, 100, 100, 0.4);
+  border: 1px solid rgb(246, 247, 249);
+  transition: 300ms;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 14px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 5px 0px;
+  user-select: none;
+  font-weight:400;
+}
+.myFirstButton:hover {
+  background-color: rgb(70, 70, 70, 0.7);
+}

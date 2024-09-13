@@ -1,0 +1,160 @@
+.mainPoststatus {
+  position: relative;
+  width: 100%;
+  margin: 30px auto;
+  background-color: white;
+  border: 1px solid #b7b7b7b7;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  //   align-items: center;
+  justify-content: center;
+  padding: 10px 5px;
+  min-height: 70px;
+  .data {
+    display: inline;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    .mydiv {
+      img {
+        display: inline;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        object-fit: cover;
+        padding: 5px;
+        border: 2px solid rgba(198, 189, 189, 0.5);
+      }
+    }
+    .dataDiv {
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+  .openPostModal {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+      Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans",
+      Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial,
+      sans-serif;
+    width: 80%;
+    height: 40px;
+    border-radius: 30px;
+    text-align: left;
+    color: rgb(0 0 0/0.6);
+    font-weight: 600;
+    background-color: rgba(0, 0, 100, 0);
+    border: 1px solid rgb(0 0 0/0.3);
+    cursor: pointer;
+    padding-left: 30px;
+    transition: 300ms;
+    outline: none;
+    font-size: 14px;
+    margin: 0px auto;
+  }
+  .openPostModal:hover {
+    background-color: rgb(235, 235, 235);
+  }
+}
+.modalInput {
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  border: none;
+  background-color: whitesmoke;
+  outline: none;
+  color: black;
+  font-size: 14px;
+  resize: none;
+}
+.mainContainerForPosts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.mainContiner {
+  width: 100%;
+  margin: 20px 0px;
+}
+.mainProfileCard {
+  border-radius: 10px;
+  height: auto;
+  .mainProfilePicture {
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    object-fit: contain;
+    overflow: hidden;
+  }
+  .mainContent {
+    border: 1px solid rgba(183, 183, 183, 0.7176470588);
+    padding: 50px 20px 20px;
+    position: relative;
+    min-height: 100px;
+    background-color: white;
+    .pen {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      cursor: pointer;
+      transition: 300ms;
+      color: rgb(60, 60, 60, 0.7);
+    }
+    .pen:hover {
+      color: black;
+    }
+    .mainProfilePicture {
+      position: absolute;
+      padding: 5px;
+      width: 30px;
+      height: 50px;
+      background-color: wheat;
+      .MyImage {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 300px;
+        z-index: 4;
+      }
+    }
+    .ProfileImage1 {
+      position: absolute;
+      width: 60px;
+      height: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: -30px;
+      border-radius: 50%;
+      border: 2px solid rgba(183, 183, 183, 0.7176470588);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      background-color: white;
+      img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+    }
+    .HomeProfileCardData {
+      h4 {
+        text-align: center;
+        transition: 300ms;
+        cursor: pointer;
+      }
+      h4:hover {
+        color: rgb(0, 0, 120);
+        text-decoration: underline;
+      }
+      p {
+        text-align: center;
+      }
+    }
+  }
+}

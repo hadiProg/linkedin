@@ -1,0 +1,7 @@
+.mainAppDiv {
+  background-color: rgb(244, 242, 238);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

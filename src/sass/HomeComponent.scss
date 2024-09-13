@@ -1,0 +1,13 @@
+.mainDiv {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  background-color: rgb(244, 242, 238);
+}
+.mainHomeComponent {
+  width: 80%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

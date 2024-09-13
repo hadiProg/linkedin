@@ -1,0 +1,82 @@
+.mainContainer1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  .buttonConatiner,
+  .numbersContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 150px;
+  }
+  .number {
+    padding-left: 15px;
+    font-size: 14px;
+  }
+  .mainLikeButton {
+    position: relative;
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: rgb(60, 60, 60);
+    font-weight: 400;
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+    .myIcon {
+      font-size: 20px;
+      transition: 300ms;
+      .liked {
+        color: rgb(55, 143, 233);
+      }
+    }
+  }
+  .mainLikeButton:hover {
+    background-color: rgb(235, 235, 235);
+  }
+  .liked {
+    color: rgb(55, 143, 233);
+  }
+}
+.commentsSection {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgba(198, 189, 189, 0.5);
+  padding: 20px 10px;
+}
+.dispalyNone {
+  display: none;
+}
+.commentInput {
+  width: 90%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #212121;
+  border: 1px solid rgb(0, 126, 187, 0.5);
+  transition: 300ms;
+  color: #949494;
+  transition: 300ms;
+}
+.commentInput:focus::placeholder {
+  transition: 150ms;
+  color: transparent;
+}
+.commentInput:focus {
+  border-color: rgb(0, 126, 187, 0.7);
+  color: #6e6e6e;
+}
+.inputCommentSection {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.myArrow {
+  right: 10px;
+  top: 8px;
+  color: rgb(55, 143, 233);
+  font-size: 20px;
+  cursor: pointer;
+}
+// .myArrow:hover{
+// }

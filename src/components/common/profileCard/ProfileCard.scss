@@ -1,0 +1,124 @@
+.ProfileCard {
+  width: 80%;
+  margin: 20px auto;
+  min-height: 500px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  .userNAme {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 30px;
+    font-weight: 600;
+  }
+
+  .currentEmail {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .currentEmail {
+    margin-top: 5px;
+  }
+
+  .buttonEdit {
+    background-color: rgb(10, 102, 194);
+    padding: 5px 25px;
+    color: white;
+    border: none;
+    transition: 300ms;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .buttonEdit:hover {
+    background-color: rgb(64, 150, 255);
+  }
+  .ButtonDiv {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Email {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+.mainCnatainerForPosts {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.profiolePhoto {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 5px solid whitesmoke;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 300ms;
+  z-index: 2;
+  padding: 5px;
+}
+.profiolePhoto::before {
+  content: "";
+  width: 100%;
+  transition: 300ms;
+}
+.profileImage {
+  // padding: 1px;
+  // width: 200px;
+  position: relative;
+  transition: 300ms;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+}
+.profileImage:hover {
+  filter: blur(1px);
+}
+
+button {
+  background-color: rgb(10, 102, 194);
+  padding: 5px 25px;
+  color: white;
+  border: none;
+  transition: 300ms;
+  border-radius: 15px;
+}
+.photoInput {
+  background-color: rgb(10, 102, 194);
+  padding: 5px 25px;
+  color: white;
+  border: none;
+  transition: 300ms;
+  border-radius: 15px;
+}
+.upload {
+  cursor: pointer;
+}
+// .photoInput:hover,
+.upload:hover,
+button:hover {
+  background-color: rgb(64, 150, 255);
+}
+.photoInput::file-selector-button {
+  background-color: rgb(10, 102, 194);
+  padding: 5px 25px;
+  color: white;
+  border: none;
+  transition: 300ms;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.photoInput::file-selector-button:hover {
+  background-color: rgb(64, 150, 255);
+}

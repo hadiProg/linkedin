@@ -1,0 +1,181 @@
+.loginBtn {
+  display: block;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: gray;
+  color: white;
+  margin: 0px auto;
+  cursor: pointer;
+}
+.main {
+  background-color: white;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  .mainheader {
+    // height: 100px;
+    padding: 20px 10px 0px;
+    // padding: 0px 10px;e
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .toJoinNow {
+    padding: 10px 15px;
+    background-color: white;
+    color: rgb(9, 103, 193);
+    border-radius: 20px;
+    border-color: rgb(9, 103, 193);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .toJoinNow:hover {
+    background-color: #f5f5f5f5;
+  }
+  .LinkedinLogo {
+    width: 100px;
+    // height: 70px;
+    border-radius: 10px;
+  }
+  .maininformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  .loginH1 {
+    width: 100%;
+    text-align: left;
+    font-weight: 300;
+    color: rgb(188, 64, 32);
+    margin-bottom: 20px;
+  }
+  .commmonInput {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 7px;
+  }
+  .commmonInput:hover {
+    background-color: #f5f5f5f5;
+    outline: 1px solid black;
+  }
+  .label {
+    margin-top: 1rem;
+    width: 100%;
+    text-align: left;
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .loginBtn {
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+    padding: 0px;
+    background-color: rgb(9, 103, 193);
+    border: none;
+    transition: 0.3s;
+  }
+  .loginBtn:hover {
+    background-color: #004182;
+  }
+  .commmonInput.secound {
+    cursor: text;
+    position: relative;
+    z-index: 1;
+  }
+  .secound::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    color: rgb(9, 103, 193);
+    font-weight: 500;
+    cursor: pointer;
+    left: 100px;
+    top: 100px;
+    z-index: 4;
+  }
+  .forShowPass {
+    position: absolute;
+    top: 60%;
+    right: 15px;
+    transform: translate(-50%, -50%);
+    display: inline;
+    width: 40px;
+    z-index: 2;
+    background-color: transparent;
+    color: rgb(9, 103, 193);
+    font-weight: 500;
+    border: none;
+    font-size: 17px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .forShowPass:hover {
+    color: #004182;
+  }
+  .mainHr {
+    width: 100%;
+    height: 0.5px;
+    border: none;
+    background-color: rgb(60, 60, 60);
+    color: rgb(60, 60, 60);
+    font-weight: 100;
+    margin: 50px 0px 0px;
+    position: relative;
+    z-index: 0;
+    overflow: visible;
+  }
+  .mainHr::before {
+    content: "or";
+    // display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    color: black;
+    background-color: white;
+    z-index: 3;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .containerGoogleButton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .SigninButton {
+    background-color: transparent;
+    color: rgb(9, 103, 193);
+    border: none;
+    font-size: 16px;
+    padding: 0px 0px;
+    transition: 300ms;
+    cursor: pointer;
+  }
+  .SigninButton:hover {
+    color: #004182;
+    font-size: 17px;
+  }
+  .myParagraph {
+    padding: 15px 0px 0px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+  }
+}

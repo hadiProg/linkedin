@@ -1,0 +1,61 @@
+.Maintopbar {
+  position: relative;
+  padding: 0px 20px;
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: rgb(140 140 140/0.2);
+  padding: 0px 300px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .LinkedinLogo {
+    width: 40px;
+    cursor: pointer;
+  }
+  .iconesContainer {
+    flex: 1;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    padding-left: 50px;
+  }
+  .userIcon {
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+.myIcon {
+  padding: 0px;
+  width: 40px;
+  font-size: 30px;
+  color: rgb(79, 79, 79);
+  transition: 300ms;
+  font-weight: 500;
+  cursor: pointer;
+  .clicked {
+    color: black;
+  }
+}
+.userIImage {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(183, 183, 183, 0.7176470588);
+  padding: 2px;
+  object-fit: cover;
+  cursor: pointer;
+  .clicked {
+    color: black;
+  }
+}
+.active,
+.myIcon:hover {
+  color: black;
+}
